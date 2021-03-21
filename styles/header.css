@@ -29,6 +29,7 @@ li{
 .colorancla:hover {
     color: cornflowerblue;
     transition: 0.4s;
+    
 }
 .botoncontacto {
     padding: 0.5em 1.75em;
