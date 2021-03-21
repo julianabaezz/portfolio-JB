@@ -1,0 +1,45 @@
+header {
+    width: 100vw;
+    background-color: lightgrey;
+    justify-content: center;
+    position: fixed;
+    
+}
+nav {
+    justify-content: flex-end;
+    padding: 2em 0em;
+    width: 100%;
+    max-width: 1100px;
+}
+li{
+    margin: 0em 1em;
+}
+.boton{
+    padding: 0.5em;
+}
+.boton:active {
+    /*border: 1px solid black;*/
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 2px lightseagreen;
+}
+.colorancla {
+    color: #2e2e31;
+    
+}
+.colorancla:hover {
+    color: cornflowerblue;
+    transition: 0.4s;
+}
+.botoncontacto {
+    padding: 0.5em 1.75em;
+    border-radius: 25px;
+    background-color: lightseagreen;
+}
+.colorcontacto {
+    color: white;
+}
+.botoncontacto:hover {
+    background-color: lightseagreen;
+    opacity: 0.7;
+    transition: 0.4s;
+}
