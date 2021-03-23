@@ -1,0 +1,41 @@
+.about {
+    border: 1px solid black;
+    width: 75em;
+    height: 100vh; /*40em*/  
+    display: flex ; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em
+
+}
+.hello{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.hola {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.JB {
+    font-size: 4.5em;
+    font-weight: 900;
+    color: #F7643B;
+    margin-bottom: 0.2em;
+}
+.description {
+    font-size: 1.2em;
+    margin-bottom: 3em;
+}
+.weight500 {
+    font-weight: 500;
+}
+.imagesize {
+    width: 20em;
+    height: 20em;
+}
