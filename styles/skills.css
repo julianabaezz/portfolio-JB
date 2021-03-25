@@ -1,0 +1,7 @@
+.skills {
+    width: 37.5em;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 3em;
+}
