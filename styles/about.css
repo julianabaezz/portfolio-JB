@@ -1,5 +1,5 @@
 .about {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 75em;
     height: 100vh; /*40em*/
     display: flex ; 
@@ -9,9 +9,9 @@
 
 }
 .hello{
+    /*border: 1px solid black;*/
     height: 100%;
     width: 50%;
-    border: 1px solid black;
     padding: 2em;
     display: flex;
     justify-content: center;

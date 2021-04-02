@@ -6,7 +6,10 @@
     text-decoration: none;
     font-family: 'Raleway';
 }
-
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
 .flex {
     display: flex;
     flex-direction: row;   
@@ -14,4 +17,7 @@
 .column {
     display: flex;
     flex-direction: column;
+}
+.textcenter {
+    text-align: center;
 }

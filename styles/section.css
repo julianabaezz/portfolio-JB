@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6em;
+    padding: 5em;
+    
 }
 .section-skills {
     width: 100vw;
@@ -12,6 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    background-color: #F6F7FB;
 }
 
 
