@@ -1,6 +1,6 @@
 .skills {
+    /*border: 1px solid black;*/
     width: 37.5em;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     padding: 3em;
@@ -14,5 +14,52 @@
     padding: 2em 3.5em 0em 3.5em;
 }
 
-    
-
+.cardscontainer {
+    /*border: 1px solid rgb(129, 117, 117);*/
+    width: 63em;
+    height: 40em;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    margin-top: 0.5em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cards {
+    border: 0.3px solid lightgray;
+    border-radius: 10px;
+    height: 15em;
+    width: 16.25em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards:hover {
+    border: 0.3px solid #F7643B;
+    color:#F7643B;
+    transition: all 0.4s;
+}
+.iconcard {
+    font-size: 5em;
+    margin-bottom: 0.2em;
+}
+.htmlicon {
+    color: #E54D26;
+}
+.cssicon {
+    color: #3D8FC6;
+}
+.sassicon {
+    color: #CC6699;
+}
+.javaicon {
+    color: #F0DB4F;
+}
+.reacticon {
+    color: #61DAFB;
+}
+.giticon{
+    color: #F34F29;
+}
