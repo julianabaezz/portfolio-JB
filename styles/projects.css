@@ -1,0 +1,28 @@
+.projectcards-container {
+    border: 1px solid black;
+    width: 75em;
+    height: 61em;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    margin-top: 0.5em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+      
+}
+
+.project-cards {
+    border: 0.3px solid lightgray;
+    border-radius: 10px;
+    height: 17em;
+    width: 20em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    
+}
+.img-size {
+    width: 11em;
+}

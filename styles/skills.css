@@ -1,20 +1,4 @@
-.skills {
-    /*border: 1px solid black;*/
-    width: 37.5em;
-    display: flex;
-    align-items: center;
-    padding: 3em;
-}
-.conocimientos{
-    font-size: 3em;
-    font-weight: 900;
-}
-.loremsize {
-    font-size: 1em;
-    padding: 2em 3.5em 0em 3.5em;
-}
-
-.cardscontainer {
+.skillcards-container {
     /*border: 1px solid rgb(129, 117, 117);*/
     width: 63em;
     height: 40em;
@@ -25,7 +9,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.cards {
+.skill-cards {
     border: 0.3px solid lightgray;
     border-radius: 10px;
     height: 15em;

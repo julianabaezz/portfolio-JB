@@ -1,0 +1,13 @@
+.quote-icon{
+    font-size: 4em;
+}
+.quote-text {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.author {
+    padding-top: 2em;
+    /*align-self: flex-end;*/    
+}

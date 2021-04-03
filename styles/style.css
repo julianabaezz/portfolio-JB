@@ -21,3 +21,8 @@ body{
 .textcenter {
     text-align: center;
 }
+.loremsize {
+    font-size: 1em;
+    font-weight: 500;
+    padding: 2em 3.5em 0em 3.5em;
+}
