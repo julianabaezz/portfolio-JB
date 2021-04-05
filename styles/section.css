@@ -1,9 +1,9 @@
 .section-titlebox {
     /*border: 1px solid black;*/
-    width: 37.5em;
+    width: 45%;
     display: flex;
     align-items: center;
-    padding: 3em;
+    padding: 48px;
 }
 .section-titletext{
     font-size: 3em;
@@ -11,14 +11,14 @@
 }
 .section-about {
     width: 100vw;
-    height: 40em;
+    height: 750px;
     justify-content: center;
     align-items: center;
-    padding: 5em;    
+    padding: 80px;    
 }
 .section-skills {
     width: 100vw;
-    padding: 4em;
+    padding: 64px;
     justify-content: center;
     align-items: center;
     background-color: #F6F7FB;
@@ -28,12 +28,19 @@
     justify-content: center;
     align-items: center;
     background-color: #F7643B;
-    padding: 5em 13em 5em 13em;
+    padding: 80px 208px 80px 208px;
 }
 .section-projects{
     width: 100vw;
-    padding: 4em;
+    padding: 64px;
     justify-content: center;
     align-items: center;
 }
-
+.section-contact{
+    padding: 50px;
+    width: 100vw;
+    background-color: #F6F7FB;
+    justify-content: center;
+    align-items: center;
+    
+}

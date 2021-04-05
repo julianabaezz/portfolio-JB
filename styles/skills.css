@@ -1,33 +1,33 @@
 .skillcards-container {
     /*border: 1px solid rgb(129, 117, 117);*/
-    width: 63em;
-    height: 40em;
+    width: 75%;
+    height: 640px; /* <-- !! */
     display: flex;
     flex-direction: row;
-    padding: 2em;
-    margin-top: 0.5em;
+    padding: 32px;
+    margin-top: 8px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .skill-cards {
+    width: 28%;
+    height: 40%;
     border: 0.3px solid lightgray;
     border-radius: 10px;
-    height: 15em;
-    width: 16.25em;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.cards:hover {
+.skill-cards:hover {
     border: 0.3px solid #F7643B;
     color:#F7643B;
     transition: all 0.4s;
 }
 .iconcard {
     font-size: 5em;
-    margin-bottom: 0.2em;
+    margin-bottom: 3.2px;
 }
 .htmlicon {
     color: #E54D26;

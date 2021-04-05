@@ -4,8 +4,8 @@
 .quote-text {
     font-size: 1.4em;
     font-weight: 600;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .author {
     padding-top: 2em;
