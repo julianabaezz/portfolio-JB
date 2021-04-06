@@ -40,7 +40,7 @@
     padding: 50px;
     width: 100vw;
     background-color: #F6F7FB;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }

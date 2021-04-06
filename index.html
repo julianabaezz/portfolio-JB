@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/quote.css">
     <link rel="stylesheet" href="./styles/projects.css">
     <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -20,17 +21,18 @@
 </head>
 <body>
     <!-- HEADER-->
-    <header class="flex">
-        <nav class="flex" >
-            <ul class="flex">
-                <li> <span class="button"> <a class="coloranchor" href="">HOLA</a></span></li>
-                <li> <span class="button"> <a class="coloranchor" href="">CONOCIMIENTOS</a></span></li>
-                <li> <span class="button"> <a class="coloranchor" href="">PROYECTOS</a></span></li>
-                <li> <span class="contactbutton"> <a class="buttoncolor"href="">CONTACTO</a></span></li>
+    <header class="row">
+        <nav class="row" >
+            <ul class="row">
+                <li> <span class="button"> <a class="coloranchor" href="#ABOUT">HOLA</a></span></li>
+                <li> <span class="button"> <a class="coloranchor" href="#SKILLS">CONOCIMIENTOS</a></span></li>
+                <li> <span class="button"> <a class="coloranchor" href="#PROJECTS">PROYECTOS</a></span></li>
+                <li> <span class="contactbutton"> <a class="buttoncolor"href="#CONTACT">CONTACTO</a></span></li>
             </ul>
         </nav>
     </header>
    <!-- HOLA SOY-->
+   <a name="ABOUT"></a>
     <section class="section-about" >
         <div class="about">
             <div class="hello">
@@ -43,13 +45,14 @@
         </div>
     </section>
     <!-- MIS CONOCIMIENTOS-->
+    <a name="SKILLS"></a>
     <section class="section-skills column">
             <div class="section-titlebox column">
                 <h1 class="section-titletext">Mis conocimientos</h1>
                 <p class="textcenter loremsize"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore animi ullam est aut explicabo temporibus nam fuga. </p>
             </div>
             <div class="skillcards-container">
-                <div class="skill-cards"> <i class="fab fa-html5 iconcard htmlicon"></i> <h2>HTML 5</h2></div>
+                <div class="skill-cards"><i class="fab fa-html5 iconcard htmlicon"></i> <h2>HTML 5</h2></div>
                 <div class="skill-cards"><i class="fab fa-css3-alt iconcard cssicon"></i> <h2>CSS 3</h2> </div>
                 <div class="skill-cards"><i class="fab fa-sass iconcard sassicon"></i> <h2>Sass</h2></div>
                 <div class="skill-cards"><i class="fab fa-js iconcard javaicon"></i> <h2>JavaScript</h2></div>
@@ -65,6 +68,7 @@
         <h2 class="author">Someone</h2>        
     </section>
     <!-- MIS PROYECTOS-->
+    <a name="PROJECTS"></a>
     <section class="section-projects column">
         <div class="section-titlebox column">
             <h1 class="section-titletext">Mis Proyectos</h1>
@@ -95,7 +99,8 @@
         </div>
     </section>
     <!-- CONTACTO-->
-    <section class="section-contact column">
+    <a name="CONTACT"></a>
+    <section class="section-contact">
        <div class="contact-container">
            <div class="box">
                 <h2 class="section-titletext">Contactame</h2>
@@ -110,7 +115,7 @@
                     <li class="link-box">
                         <a href="https://github.com/julianabaezz/" class="black-text" target="_blank">
                             <i class="icon fab fa-github-alt"></i>
-                        julianabaezz
+                            julianabaezz
                         </a>
                     </li>
                     <li class="link-box">
@@ -122,21 +127,74 @@
                     <li class="link-box">
                         <a href="mailto:juliana.baez@outlook.com" class="black-text" target="_blank">
                             <i class="icon fas fa-envelope"></i> 
-                            juulibaez@gmail.com
+                            juliana.baez@outlook.com
                         </a>
                     </li>
-                </ul>
-               
+                </ul>               
             </div>
-            
-            
+            <div class="box">
+                <h2 class="section-titletext">Escribime</h2>
+                <form action="basededatos.php" method="GET">
+                    <div class="nameform">
+                        <div class="name">
+                            <label for="idNombre"> Nombre:*</label>
+                            <input type="text" id="idNombre" maxlength="30" size="25" placeholder="Ingresá tu nombre">
+                        </div>
+                        <div class="name">
+                            <label for="idApellido"> Apellido:*</label>
+                            <input type="text" id="idApellido" maxlength="30" size="25"placeholder="Ingresá tu apellido"> 
+                        </div>
+                    </div>
+                    <div class="name">
+                        <label for="idMail"> Email:*</label>
+                        <input type="email" id="idMail" maxlength="30" size="25"placeholder="Ingresá tu mail">
+                    </div>
+                    <div class="name">
+                        <label for="idMensaje">Mensaje:</label> <textarea placeholder= "Escriba un mensaje aquí"
+                        name="" id="idComentarios" cols="50" rows="10" maxlength="100"></textarea>
+                    </div>             
+                  
+                </form>
+            </div>                     
 
         </div>
-
-           
-
-
-    </section>
+     </section>
+     <footer class="column">
+         <div class="links-footer">
+            <ul class="row">
+                <li> <a class="footer-button" href="#ABOUT">HOLA</a></li>
+                <li> <a class="footer-button" href="#SKILLS">CONOCIMIENTOS</a></span></li>
+                <li> <a class="footer-button" href="#PROJECTS">PROYECTOS</a></span></li>
+                <li> <a class="footer-button"href="#CONTACT">CONTACTO</a></span></li>
+            </ul>
+         </div>
+         <div class="socialmedia-footer">
+            <ul class="row">
+                <li>
+                    <a href="https://discord.com/channels/@juliana%20baez#1016" class="black-text" target="_blank">
+                        <i class="footer-icon fab fa-discord"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/julianabaezz/" class="black-text" target="_blank">
+                        <i class="footer-icon fab fa-github-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/juliana-baez-53b090149/" class="black-text" target="_blank">
+                        <i class="footer-icon fab fa-linkedin"></i>   
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:juliana.baez@outlook.com" class="black-text" target="_blank">
+                        <i class="footer-icon fas fa-envelope"></i> 
+                    </a>
+                </li>
+            </ul>
+            
+         </div>
+         <p class="footer-text">🌿hecho con 💛 por juliana🌿</p>
+     </footer>
 
     
     </body>

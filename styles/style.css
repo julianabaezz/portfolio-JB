@@ -7,10 +7,11 @@
     font-family: 'Raleway';
 }
 body{
+    height: 100%;
     width: 100vw;
     overflow-x: hidden;
 }
-.flex {
+.row {
     display: flex;
     flex-direction: row;   
 }

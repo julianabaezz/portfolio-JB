@@ -1,5 +1,23 @@
-.contact-container {
-    /*margin: 125px;*/
+input {
+    border-radius: 30px;
+    border: solid 0.5px rgb(188, 194, 201);
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #FCFCE4;
+    outline: none;    
+}
+label{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+textarea{
+    background-color: #FCFCE4;
+    padding: 15px;
+    border: solid 0.5px rgb(188, 194, 201);
+    border-radius: 30px;
+    outline: none;
+}
+ .contact-container {
     padding: 30px;
     width: 88%;
     background-color: #FFFFFF;
@@ -10,19 +28,16 @@
 }
 .box{
     /*border: 1px solid black;*/
-    height: 85%;
     width: 50%;    
     justify-content: space-between;
     padding: 40px;
 }
 .contact-text{
-    margin: 25px 0px 20px 0px;
+    margin: 35px 0px 30px 0px;
 }
 .link-box {
     border: transparent;
-    border-radius: 25px;
-    width: 60%;
-    font-size: 1.2em;
+    border-radius: 25px;    
     margin-top: 15px; 
     padding: 5px 5px 5px 10px;
     display: flex;
@@ -32,14 +47,15 @@
     /*padding-top: 1px ; */  
 }
 .icon{
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
     width: 40px;
     height: 40px;
     color: #F7643B;
     border-radius: 50px;
     margin-right: 15px;
     padding-top: 10px;
-    text-align: center;    
+    text-align: center;   
+    font-size: 1.3em; 
 }
 .link-box:hover .icon{
     background-color:#F7643B ;
@@ -58,3 +74,18 @@
 .black-text:hover {
     color: #F7643B;
 }
+.nameform {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.name {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 15px;      
+}
+
