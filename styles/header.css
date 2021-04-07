@@ -1,10 +1,9 @@
 header {
-    width: 100vw;
+    width: 100%;
     background-color: rgb(252, 252, 228);
     justify-content: center;
     position: fixed;
-    box-shadow: 0px 0px 9px 1px lightgrey;
-    
+    box-shadow: 0px 0px 9px 1px lightgrey;    
 }
 nav {
     justify-content: flex-end;
@@ -24,13 +23,11 @@ li{
     box-shadow: 0px 0px 2px 2px #F7643B;
 }
 .coloranchor {
-    color: #2e2e31;
-    
+    color: #2e2e31;    
 }
 .coloranchor:hover {
     color: #F7643B;
-    transition: 0.4s;
-    
+    transition: 0.4s;    
 }
 .contactbutton {
     padding: 8px 28px;

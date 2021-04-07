@@ -6,11 +6,10 @@
     text-decoration: none;
     font-family: 'Raleway';
 }
-body{
+/* body{
     height: 100%;
-    width: 100vw;
-    overflow-x: hidden;
-}
+    width: 100%;
+} */
 .row {
     display: flex;
     flex-direction: row;   
