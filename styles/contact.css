@@ -25,6 +25,7 @@ textarea{
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 .box{
     /*border: 1px solid black;*/

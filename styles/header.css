@@ -3,7 +3,8 @@ header {
     background-color: rgb(252, 252, 228);
     justify-content: center;
     position: fixed;
-    box-shadow: 0px 0px 9px 1px lightgrey;    
+    box-shadow: 0px 0px 9px 1px lightgrey;
+    display: flex;    
 }
 nav {
     justify-content: flex-end;
@@ -41,4 +42,9 @@ li{
     background-color: #F7643B;
     opacity: 0.7;
     transition: 0.4s;
+}
+@media screen and (max-width: 1100px) {
+    header{
+        display: none;
+    }    
 }

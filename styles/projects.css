@@ -2,8 +2,8 @@
     /*border: 1px solid black;*/
     width: 88%;
     height: 1000px;
-    padding: 2em;
-    margin-top: 0.5em;
+    padding: 32px;
+    margin-top: 8px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
