@@ -31,3 +31,22 @@
 .img-size {
     width: 60%;
 }
+@media screen and (max-width: 500px){
+    .projectcards-container {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .project-cards {
+        width: 65%;
+        padding: 20px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .img-size {
+        width: 100%;
+    }
+ }

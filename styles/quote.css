@@ -11,3 +11,9 @@
     padding-top: 2em;
     /*align-self: flex-end;*/    
 }
+@media screen and (max-width: 400px){
+    .quote-text {
+     font-size: 1em;
+    }
+    
+ }

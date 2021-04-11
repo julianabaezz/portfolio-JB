@@ -69,10 +69,13 @@ textarea{
 .link-box:hover {
     color: #F7643B;
 }
-.black-text {
+.link-text {
     color: black;
 }
-.black-text:hover {
+.sizemailtext {
+    font-size: 0.85em;
+}
+.link-text:hover {
     color: #F7643B;
 }
 .nameform {
@@ -90,3 +93,28 @@ textarea{
     margin-bottom: 15px;      
 }
 
+@media screen and (max-width: 500px){
+    .contact-container {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     padding: 0;
+    }
+    .box {
+        width: auto;
+        padding: 15px;
+    }
+    .contact-text{
+        margin: 25px 0px 30px 0px;
+    }
+    .link-box{
+        padding: 0px;
+        
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+        padding-top: 6px;
+    }
+
+}

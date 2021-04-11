@@ -67,6 +67,7 @@
     .section-titletext {
         display: flex;
         flex-direction: row;
+        font-size: 2em;
     }
     .skillcards-container {
         width: 100%;
