@@ -1,7 +1,7 @@
 .skillcards-container {
     /*border: 1px solid rgb(129, 117, 117);*/
-    width: 75%;
-    height: 640px; /* <-- !! */
+    width: 80%;
+    /* height: 640px; <-- !! */
     display: flex;
     flex-direction: row;
     padding: 32px;
@@ -9,9 +9,20 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.section-titlebox {
+    /*border: 1px solid black;*/
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding: 48px;
+}
+.section-titletext{
+    font-size: 3em;
+    font-weight: 900;
+}
 .skill-cards {
     width: 28%;
-    height: 40%;
+    /* height: 40%; */
     border: 0.3px solid lightgray;
     border-radius: 10px;
     background-color: white;
@@ -19,6 +30,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+    margin-bottom: 20px;
 }
 .skill-cards:hover {
     border: 0.3px solid #F7643B;
@@ -46,4 +59,23 @@
 }
 .giticon{
     color: #F34F29;
+}
+@media screen and (max-width: 600px){
+    .section-titlebox {
+    width: 100%;
+    }
+    .section-titletext {
+        display: flex;
+        flex-direction: row;
+    }
+    .skillcards-container {
+        width: 100%;
+        padding: 0px;
+    }
+    .skill-cards {
+        width:43%;
+        margin-bottom: 50px;
+        
+    }
+    
 }
