@@ -1,10 +1,12 @@
 input {
+    width: 100%;
+    background-color: #FCFCE4;
     border-radius: 30px;
     border: solid 0.5px rgb(188, 194, 201);
     padding: 10px;
     margin-top: 5px;
-    background-color: #FCFCE4;
-    outline: none;    
+    outline: none; 
+      
 }
 label{
     margin-bottom: 10px;
@@ -12,23 +14,21 @@ label{
 }
 textarea{
     background-color: #FCFCE4;
-    padding: 15px;
     border: solid 0.5px rgb(188, 194, 201);
     border-radius: 30px;
+    padding: 15px;
     outline: none;
 }
- .contact-container {
-    padding: 30px;
+.contact-container {
     width: 88%;
     background-color: #FFFFFF;
+    padding: 30px;
     border: 1px solid gray;
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 .box{
-    /*border: 1px solid black;*/
     width: 50%;    
     justify-content: space-between;
     padding: 40px;
@@ -45,10 +45,9 @@ textarea{
     flex-direction: row;
     justify-content: flex-start;
     align-items:center;
-    /*padding-top: 1px ; */  
+    
 }
 .icon{
-    /* border: 1px solid black; */
     width: 40px;
     height: 40px;
     color: #F7643B;
@@ -73,13 +72,12 @@ textarea{
     color: black;
 }
 .sizemailtext {
-    font-size: 0.85em;
+    font-size: 0.86em;
 }
 .link-text:hover {
     color: #F7643B;
 }
 .nameform {
-    /* border: 1px solid black; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -87,19 +85,32 @@ textarea{
     margin-top: 10%;
 }
 .name {
-    /*border: 1px solid red;*/
     display: flex;
     flex-direction: column;  
     margin-bottom: 15px;      
 }
+.sendbutton {
+    color: white;
+    background-color: #F7643B;
+    padding: 8px 28px;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+}
+@media screen and (max-width:900px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+       }
+    .box {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 500px){
-    .contact-container {
-     display: flex;
-     flex-direction: column;
-     width: 100%;
-     padding: 0;
-    }
+   
     .box {
         width: auto;
         padding: 15px;
@@ -108,13 +119,16 @@ textarea{
         margin: 25px 0px 30px 0px;
     }
     .link-box{
-        padding: 0px;
-        
+        padding: 0px;        
     }
     .icon{
         width: 30px;
         height: 30px;
         padding-top: 6px;
+    }
+    .nameform {
+        display: flex;  
+        flex-direction: column;
     }
 
 }

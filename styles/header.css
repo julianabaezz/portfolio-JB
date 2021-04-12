@@ -1,25 +1,24 @@
 header {
     width: 100%;
     background-color: rgb(252, 252, 228);
-    justify-content: center;
-    position: fixed;
     box-shadow: 0px 0px 9px 1px lightgrey;
     display: flex;    
+    justify-content: center;
+    position: fixed;
 }
 nav {
-    justify-content: flex-end;
-    padding: 32px 0em;
     width: 100%;
     max-width: 1100px;
+    padding: 32px 0em;
+    justify-content: flex-end;
 }
-li{
+li {
     margin: 0px 16px;
 }
-.button{
+.button {
     padding: 8px;
 }
 .button:active {
-    /*border: 1px solid black;*/
     border-radius: 25px;
     box-shadow: 0px 0px 2px 2px #F7643B;
 }
@@ -30,19 +29,12 @@ li{
     color: #F7643B;
     transition: 0.4s;    
 }
-.contactbutton {
-    padding: 8px 28px;
-    border-radius: 25px;
-    background-color: #F7643B;
-}
-.buttoncolor {
-    color: white;
-}
 .contactbutton:hover {
     background-color: #F7643B;
     opacity: 0.7;
     transition: 0.4s;
 }
+
 @media screen and (max-width: 1100px) {
     header{
         display: none;

@@ -1,7 +1,5 @@
 .about {
-    /*border: 1px solid black;*/
     width: 100%;
-    /* height: 100vh 40em */
     display: flex ; 
     justify-content: space-around;
     align-items: center;
@@ -9,58 +7,51 @@
 
 }
 .hello{
-    /*border: 1px solid black;*/
     height: 100%;
     width: 50%;
-    /*padding: 2em;*/
+    margin-left: 35px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin-left: 35px;
 }
 .hola {
     font-size: 2.5em;
     font-weight: 800;
 }
 .JB {
-    font-size: 4.5em;
-    font-weight: 900;
     color: #F7643B;
     margin-bottom: 3.2px;
+    font-size: 4.5em;
+    font-weight: 900;
 }
 .description {
-    font-size: 1.2em;
     margin-bottom: 48px;
+    font-size: 1.2em;
 }
-.weight500 {
-    font-weight: 500;
-}
-.imagesize {
+.about-imgsize {
     width: 500px;
     margin: 0px 50px 50px;
 }
 
 @media screen and (max-width: 1100px) {
     .about {
-        flex-direction: column;
-        text-align: center;
         padding: 0px;
+        text-align: center;
+        flex-direction: column;
     }
     .hello {
-        align-items: center;
         margin: 80px 0px 60px 0px;
+        align-items: center;
     }
-    
 }
 @media screen and (max-width: 600px){
-    .imagesize {
+    .about-imgsize {
         width: 350px;
     }
-
 }
 @media screen and (max-width: 400px){
-    .imagesize {
+    .about-imgsize {
         width: 250px;
     }
 
