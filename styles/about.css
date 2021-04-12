@@ -43,16 +43,28 @@
     .hello {
         margin: 80px 0px 60px 0px;
         align-items: center;
+        width: auto;
     }
 }
 @media screen and (max-width: 600px){
     .about-imgsize {
         width: 350px;
     }
+    .JB {
+        font-size: 4em;
+    }
 }
 @media screen and (max-width: 400px){
     .about-imgsize {
         width: 250px;
+    }
+    .JB {
+        font-size: 3.5em;
+    }
+    .description {
+        margin-bottom: 48px;
+        margin-top: 15px;
+        font-size: 1em;
     }
 
 }
