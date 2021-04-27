@@ -9,6 +9,7 @@
 }
 .author {
     padding-top: 2em;
+    font-weight: 900;
        
 }
 @media screen and (max-width: 400px){

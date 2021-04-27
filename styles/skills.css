@@ -25,6 +25,7 @@
     color:#F7643B;
     border: 0.3px solid #F7643B;
     transition: all 0.4s;
+    cursor: pointer;
 }
 .iconcard {
     margin-bottom: 3.2px;
@@ -48,6 +49,12 @@
 .giticon{
     color: #F34F29;
 }
+@media screen and (max-width: 1300px){
+    .section-titletext {
+        font-size: 2.6em;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 600px){
     .section-titlebox {
         width: 100%;
@@ -64,6 +71,15 @@
     .skill-cards {
         width:43%;
         margin-bottom: 50px;
-    }
         
+    }
+    .skill-cards .h2  {
+        font-size: 0;
+    }
+    .hidden {
+        font-size: 0em;
+    }
+
+    
+    
 }
