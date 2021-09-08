@@ -34,16 +34,16 @@
 }
 @media screen and (max-width: 600px){
     .section-about {
-     padding: 50px;
+    padding: 50px;
     }
     
- }
+}
 
 @media screen and (max-width: 600px){
-   .section-skills {
+.section-skills {
     padding: 0px;
-   }
-   
+}
+
 }
 @media screen and (max-width: 600px){
     .section-projects {

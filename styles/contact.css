@@ -6,7 +6,7 @@ input {
     padding: 10px;
     margin-top: 5px;
     outline: none; 
-      
+
 }
 label{
     margin-bottom: 10px;
@@ -103,14 +103,13 @@ textarea{
         flex-direction: column;
         width: 100%;
         padding: 0;
-       }
+    }
     .box {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 500px){
-   
     .box {
         width: auto;
         padding: 15px;

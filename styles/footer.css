@@ -34,7 +34,7 @@ footer {
 }
 @media screen and (max-width: 600px){
     .links-footer {
-     display: none ;
+    display: none ;
     }
     .footer-icon{
         width: 40px;
